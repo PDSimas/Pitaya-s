@@ -1,0 +1,20 @@
+/* Reset de estilos padrão para garantir uma base consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos da label de pesquisa */
+.search-label {
+  display: block; /* Para que a label ocupe toda a largura disponível */
+  margin-bottom: 10px; /* Espaço entre a label e a caixa de pesquisa */
+}
+
+/* Estilos da caixa de pesquisa */
+.search-box {
+  width: 80%; /* Largura da caixa de pesquisa */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 18px; /* Tamanho da fonte da caixa de pesquisa */
+}
+
